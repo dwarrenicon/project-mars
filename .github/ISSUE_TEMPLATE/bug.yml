@@ -46,13 +46,12 @@ body:
         - Individual
         - Employer
         - Admin
-      default: 0
-    validations:
       
   - type: dropdown
     id: environment
     attributes:
-      label: What environment are you seeing the problem in?
+      label: Environment
+      description: "What environment are you seeing the problem in?"
       options:
         - Localhost
         - Staging
@@ -62,8 +61,8 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output or screenshots
-      description: "Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks."
+      label: Please include any relevant screenshots or log output
+      description: "Please copy and paste any relevant, screenshots, error messages, code snippets or log output. This will be automatically formatted into code, so no need for backticks."
       render: shell
 
       
