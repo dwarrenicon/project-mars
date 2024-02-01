@@ -1,19 +1,19 @@
 name: "Bug 🐞"
 description: "File a bug/ issue"
-title: "[Bug]: "
+title: ""
 labels: ["bug", "triage"]
 projects: ["@dwarrenicon's Product Board", ]
 assignees:
-  - octocat
+  - dwarrenicon
 body:
   - type: markdown
     attributes:
-      value: "Please fill out this bug report!"
+      value: | "Please fill out this bug report!"
 
   - type: textarea
     id: describe
     attributes:
-      label: Describe the bug.
+      label: Describe the bug. |
       description: "A clear and concise description of what the bug is."
       placeholder: Tell us what you see!
     validations:
@@ -22,8 +22,8 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: To Reproduce
-      description: "Steps to reproduce the behavior:"
+      label: To Reproduce|
+      description:  "Steps to reproduce the behavior:"
       placeholder: 1. Go to... 2. Click on... 3. Scroll down to... 4. See error
     validations:
       required: true
@@ -31,7 +31,7 @@ body:
   - type: textarea
     id: expected-behavior
     attributes:
-      label: Expected behavior
+      label: Expected behavior|
       description: "A clear and concise description of what you expected to happen."
       placeholder: Tell us what was meant to happen.
     validations:
@@ -41,7 +41,7 @@ body:
   - type: dropdown
     id: portal
     attributes:
-      label: Portal
+      label: Portal|
       description: "What portal are you running?"
       options:
         - Individual
@@ -52,7 +52,7 @@ body:
       required: true
       
   - type: dropdown
-    id: environment
+    id: environment|
     attributes:
       label: What environment are you seeing the problem in?
       multiple: true
@@ -65,7 +65,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output or screenshots
+      label: Relevant log output or screenshots|
       description: "Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks."
       render: shell
 
