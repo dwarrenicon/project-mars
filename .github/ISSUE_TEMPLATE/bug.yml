@@ -1,5 +1,5 @@
-name: Bug 🐞
-description: File a bug/ issue
+name: "Bug 🐞"
+description: "File a bug/ issue"
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["@dwarrenicon's Product Board", ]
