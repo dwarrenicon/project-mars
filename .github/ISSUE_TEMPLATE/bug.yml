@@ -1,6 +1,6 @@
 name: "Bug 🐞"
 description: "File a bug/ issue"
-title: "[]"
+title: "Title"
 labels: ["bug", "triage"]
 projects: ["@dwarrenicon's Product Board", ]
 assignees:
